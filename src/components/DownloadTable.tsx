@@ -63,9 +63,10 @@ export function DownloadTable({
         <button
           onClick={clearDownloads}
           title='Clear all'
-          className='flex h-8 w-8 items-center justify-center rounded-xl border border-rose-500/30 bg-rose-500/15 text-rose-400 transition-colors hover:bg-rose-500/25 sm:h-9 sm:w-9'
+          className='flex items-center justify-center gap-1 rounded-lg border border-red-500/30 bg-red-500/15 px-2 py-1 text-red-400 transition-colors hover:bg-red-500/25'
         >
-          <HugeiconsIcon icon={Delete01Icon} size={16} className='sm:size-5' />
+          <p>Clear</p>
+          <HugeiconsIcon icon={Delete01Icon} size={16} />
         </button>
       </div>
 

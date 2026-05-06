@@ -101,7 +101,7 @@ export function DownloadControls({
               <button
                 key={fmt}
                 onClick={() => queueSingle(fmt)}
-                className={`flex h-10 flex-1 items-center justify-center gap-1.5 border-2 px-3 text-xs font-semibold transition-all sm:h-12 sm:px-5 sm:text-sm ${cls}`}
+                className={`flex h-10 flex-1 items-center justify-center gap-1.5 border px-3 text-xs font-semibold transition-all sm:h-12 sm:px-5 sm:text-sm ${cls}`}
               >
                 <HugeiconsIcon icon={icon} size={16} className='sm:size-5' />
                 <span>{label}</span>
