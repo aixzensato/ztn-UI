@@ -154,7 +154,7 @@ export default function VideoDownloader() {
   };
 
   return (
-    <div className='relative min-h-screen overflow-hidden bg-[#0d0f1a] p-3 text-white sm:p-4 md:p-6'>
+    <div className='relative min-h-screen overflow-hidden bg-[#0d0f1a] py-5 text-white sm:p-4 md:p-6'>
       {/* Ambient glow orbs */}
       <div className='pointer-events-none fixed inset-0 -z-0'>
         <div className='absolute -right-24 -top-24 h-96 w-96 rounded-full bg-indigo-600/20 blur-3xl' />
