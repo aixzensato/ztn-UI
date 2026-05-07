@@ -10,7 +10,7 @@ export const getPlatformIcon = (url: string): PlatformIcon => {
     if (host.includes('facebook.com')) return { type: 'iconza', name: 'FacebookSquare' };
     if (host.includes('tiktok.com')) return { type: 'iconza', name: 'TikTokFill' };
     if (host.includes('instagram.com')) return { type: 'iconza', name: 'Instagram' };
-    if (host.includes('pinterest.com')) return { type: 'iconza', name: 'Pinterest' };
+    if (host.includes('pin.it')) return { type: 'iconza', name: 'Pinterest' };
     if (host === 'x.com' || host.includes('twitter.com')) return { type: 'iconza', name: 'X Light' };
     if (host.includes('linkedin.com')) return { type: 'iconza', name: 'LinkedIn' };
     if (host.includes('reddit.com')) return { type: 'iconza', name: 'Reddit' };
