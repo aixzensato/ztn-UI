@@ -9,6 +9,7 @@ const supportedPlatforms = [
   { name: 'Instagram', icon: 'Instagram' },
   { name: 'Pinterest', icon: 'Pinterest' },
   { name: 'X', icon: 'X Light' },
+  { name: 'Dailymotion', icon: 'Dailymotion Light' },
   { name: 'LinkedIn', icon: 'LinkedIn' },
   { name: 'Reddit', icon: 'Reddit' },
   { name: 'Twitch', icon: 'Twitch' },
@@ -21,7 +22,6 @@ const supportedPlatforms = [
   { name: 'Kwai', icon: 'Kwai' },
   { name: 'Behance', icon: 'BehanceFill' },
   { name: 'Dribbble', icon: 'Dribbble' },
-  { name: 'Dailymotion', icon: 'Dailymotion' },
   { name: '500px', icon: '500px Light' },
 ];
 
