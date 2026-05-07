@@ -3,10 +3,15 @@ interface ProgressBarProps {
 }
 
 function getBarColor(progress: number) {
-  if (progress === 100) return 'bg-emerald-400';
-  if (progress >= 50) return 'bg-indigo-400';
-  if (progress >= 25) return 'bg-indigo-500/70';
-  return 'bg-white/20';
+  if (progress >= 100) return 'bg-emerald-500';
+  if (progress >= 90) return 'bg-green-500';
+  if (progress >= 75) return 'bg-teal-500';
+  if (progress >= 60) return 'bg-cyan-500';
+  if (progress >= 45) return 'bg-sky-500';
+  if (progress >= 30) return 'bg-yellow-500';
+  if (progress >= 15) return 'bg-orange-500';
+
+  return 'bg-rose-500';
 }
 
 export function ProgressBar({ progress }: ProgressBarProps) {

@@ -5,7 +5,7 @@ import { HugeiconsIcon } from '@hugeicons/react';
 import { ProgressBar } from './Progressbar';
 import { useState, useEffect, useRef } from 'react';
 import { getPlatformIcon } from './PlatformIcon';
-import { ImageDelete02Icon, Cancel01Icon, Download01Icon } from '@hugeicons/core-free-icons';
+import { ImageNotFound01Icon, Cancel01Icon, Download01Icon } from '@hugeicons/core-free-icons';
 
 interface TableRowProps {
   item: DownloadItem;
@@ -108,7 +108,7 @@ export function TableRow({ item, onCancel }: TableRowProps) {
           </div>
         ) : thumbError || !thumbnail ? (
           <div className='flex h-full w-full items-center justify-center bg-white/5'>
-            <HugeiconsIcon icon={ImageDelete02Icon} size={24} className='text-white/20 sm:size-8' />
+            <HugeiconsIcon icon={ImageNotFound01Icon} size={24} className='text-whitew sm:size-8' />
           </div>
         ) : (
           <img src={thumbnail} alt='Thumbnail' className='h-full w-full object-cover' onError={() => setThumbError(true)} />

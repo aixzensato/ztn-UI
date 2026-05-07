@@ -6,8 +6,8 @@ import {
   Folder03Icon,
   Task02Icon,
   MusicNote03Icon,
-  AiVideoIcon,
-  Image01Icon,
+  PlayListIcon,
+  Image03Icon,
 } from '@hugeicons/core-free-icons';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -53,7 +53,7 @@ export function DownloadControls({
   const formatButtons = [
     {
       fmt: 'video' as const,
-      icon: AiVideoIcon,
+      icon: PlayListIcon,
       label: 'MP4',
       cls: 'rounded-l-xl rounded-r-none border-r-0 border-rose-500/40 bg-rose-500/20 hover:bg-rose-500/30 text-rose-300',
     },
@@ -65,7 +65,7 @@ export function DownloadControls({
     },
     {
       fmt: 'image' as const,
-      icon: Image01Icon,
+      icon: Image03Icon,
       label: 'IMG',
       cls: 'rounded-r-xl rounded-l-none border-l-0 border-emerald-500/40 bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300',
     },
